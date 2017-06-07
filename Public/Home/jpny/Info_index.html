@@ -1,0 +1,237 @@
+<include file="Public:header" />
+	<input type="hidden" name="item_id" value="{$_GET['item_id']}" >
+	<div class="neironye">
+	<div class="daohanglan">
+		<div class="bt">
+		<div class="zw">产品中心</div>
+		<div class="yw">Product Center</div>
+		</div>
+
+		<div class="category">
+		
+		</div>
+	</div>
+
+	<div class="neirongxx product details">
+		<div class="cpgg">
+			
+				
+		</div>
+
+		<div class="ewmsmgm">
+			<i class="iconfont icon-iconfontweixin"></i>
+			微信扫一扫，购买
+			<div class="ewm"><img src="__PUBLIC__/images/img/weixin.jpg" width="430" height="430" alt=""/></div>
+			<i class="iconfont icon-iconfontzhizuobiaozhun47"></i>
+		 </div>
+
+		<div class="spxqwb">
+			
+	 	</div>
+	</div>
+
+
+	</div>
+	</div>
+
+	<include file="Public:footer" />
+	<script type="text/javascript">
+		$(function(){
+			var id = {$id};
+			var	item = '';
+			var cid = {$cid};
+			var category;
+			var html1 = '';
+			var html = '';
+					$(document).ready(function(){
+						
+						$.ajax(
+			   			{  
+					        type:'post',  
+					        url : 'http://erp.fjjpny.com/index.php?m=api&c=seed&a=get_category',  
+					        dataType : 'jsonp',
+					        success  : function(data) {
+					            if(data.status){
+					            	var category_id = {$category_id};
+					            	var seedlist = data.data;
+					            	console.log(seedlist);
+					            	html1 = '<div class="lm" data-id="0">全部产品</div>';
+					            	$.each(seedlist,function(e,m){
+					            		if(category_id == m.gc_id){
+					            			html += '<div class="lm on" data-id="'+ m.gc_id +'">'+m.gc_name+'</div>';
+					            		}else{
+					            			html += '<div class="lm" data-id="'+ m.gc_id +'">'+m.gc_name+'</div>';
+					            		}
+					            		
+					            	});
+					            	$('.category').html(html1 + html);
+					            }else{
+					            	
+					            }
+					        },  
+					        error : function() {  
+					            alert('请求失败');  
+					        }  
+			    		}
+					);
+					});
+				$(document).ready(function(){
+				$.ajax(  
+	   			{  
+			        type:'post',  
+			        url : 'http://erp.fjjpny.com/index.php?m=api&c=seed&a=get_seedinfo',  
+			        dataType : 'jsonp',
+				    data:{item_id:id},
+			        success  : function(data) {
+			            if(data.status){
+			            	itemlist = data.data;
+		            		seedlist = data.list;
+		            		var str = '';
+		            		$.each(itemlist.spec, function(e,m){
+		            			str += m;
+		            		});
+		            		if(itemlist.cover && seedlist){
+								var seedinfo = 	'<div class="tp"> <img src="http://erp.fjjpny.com'+ itemlist.cover +'" width="236" height="236" alt=""/></div>'
+		            				        +'<div class="xinxi">'
+		            						+'<div class="btxx">'+ itemlist.item_name +'</div>'
+											+'<div class="guige">规格：'+ str +'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">特征特性：</div>'
+												+'<div class="sm">'+ seedlist.traits +'</div>'
+											+'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">栽培要点：</div>'
+												+'<div class="sm">'+ seedlist.measures +'</div>'
+											+'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">亩用种量：</div>'
+												+'<div class="sm">'+ seedlist.mu +'</div>'
+											+'</div>'
+											+'</div>';
+								$('.cpgg').html(seedinfo);
+		            		}else if(itemlist.cover && !seedlist){
+		            			var seedinfo = 	'<div class="tp"> <img src="http://erp.fjjpny.com'+ itemlist.cover +'" width="236" height="236" alt=""/></div>'
+		            				        +'<div class="xinxi">'
+		            						+'<div class="btxx">'+ itemlist.item_name +'</div>'
+											+'<div class="guige">规格：'+ str +'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">特征特性：</div>'
+												+'<div class="sm"></div>'
+											+'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">栽培要点：</div>'
+												+'<div class="sm"></div>'
+											+'</div>'
+											+'<div class="cpms">'
+												+'<div class="lx">亩用种量：</div>'
+												+'<div class="sm"></div>'
+											+'</div>'
+											+'</div>';
+								$('.cpgg').html(seedinfo);
+		            		}else if(!itemlist.cover && seedlist){
+			            			var seedinfo = 	'<div class="tp"> <img src="__PUBLIC__/images/weixin.jpg" width="236" height="236" alt=""/></div>'
+			            				        +'<div class="xinxi">'
+			            						+'<div class="btxx">'+ itemlist.item_name +'</div>'
+												+'<div class="guige">规格：'+ str +'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">特征特性：</div>'
+													+'<div class="sm">'+ seedlist.traits +'</div>'
+												+'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">栽培要点：</div>'
+													+'<div class="sm">'+ seedlist.measures +'</div>'
+												+'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">亩用种量：</div>'
+													+'<div class="sm">'+ seedlist.mu +'</div>'
+												+'</div>'
+												+'</div>';
+									$('.cpgg').html(seedinfo);
+		            			}else if(!itemlist.cover && !seedlist){
+		            				var seedinfo = 	'<div class="tp"> <img src="__PUBLIC__/images/weixin.jpg" width="236" height="236" alt=""/></div>'
+			            				        +'<div class="xinxi">'
+			            						+'<div class="btxx">'+ itemlist.item_name +'</div>'
+												+'<div class="guige">规格：'+ str +'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">特征特性：</div>'
+													+'<div class="sm"></div>'
+												+'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">栽培要点：</div>'
+													+'<div class="sm"></div>'
+												+'</div>'
+												+'<div class="cpms">'
+													+'<div class="lx">亩用种量：</div>'
+													+'<div class="sm"></div>'
+												+'</div>'
+												+'</div>';
+		            				$('.cpgg').html(seedinfo);
+		            			}
+		            			$('.spxqwb').html(itemlist.detail);
+			            }else{
+			            	
+			            }
+			        },  
+			        error : function() {  
+			            alert('请求失败');  
+			        }  
+	    		}
+			);
+		});
+
+		$(document).on('click', '.lm', function(){
+			category = $(this).data('id');
+			$('.neirongxx').removeClass('details');
+			$(this).siblings('.lm').removeClass('on');
+        	$(this).addClass('on'); 
+			$.ajax(  
+   			{  
+		        type:'post',  
+		        url : 'http://erp.fjjpny.com/index.php?m=api&c=seed&a=get_item',  
+		        dataType : 'jsonp',
+			    data:{gc_id:category},
+		        success  : function(data) {  
+		            if(data.status){
+		            	seedlist = data.data;
+		            	$.each(seedlist, function(e,m){
+		            		var str = '';
+		            		$.each(m.spec, function(i,e){ 
+		            			str += e;
+		            		});	
+		            		
+		            		if(m.cover){
+		            			item += '<a href="/index.php?s=/info/index/cid/'+cid+'/item_id/'+ m.item_id +'/category_id/'+ m.category_id +'">'
+										+'<div class="cp">'
+											+'<div class="tp"><img src="http://erp.fjjpny.com'+m.cover+'" width="236" height="236" alt=""/></div>'
+											+'<div class="wzms">'
+												+'<div class="mc">'+ m.item_name +'</div>'
+												+'<div class="gg">'+ str +'</div>'
+											+'</div>'
+										+'</div>'
+									+'</a>';
+		            		}else{
+		            			item += '<a href="/index.php?s=/info/index/cid/'+cid+'/item_id/'+ m.item_id +'/category_id/'+ m.category_id +'">'
+										+'<div class="cp">'
+											+'<div class="tp"><img src="__PUBLIC__/images/weixin.jpg" width="236" height="236" alt=""/></div>'
+											+'<div class="wzms">'
+												+'<div class="mc">'+ m.item_name +'</div>'
+												+'<div class="gg">'+ str +'</div>'
+											+'</div>'
+										+'</div>'
+									+'</a>';
+		            		}
+		            	});            		
+		            	$('.neirongxx').html(item);
+		            	item = '';
+		            }else{
+		            	$('.neirongxx').empty();
+		            }
+		        },  
+		        error : function() {  
+		            alert('请求失败');  
+		        }  
+    		}
+			);
+		});
+	})	
+	</script>

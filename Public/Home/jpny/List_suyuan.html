@@ -1,0 +1,173 @@
+<include file="Public:header" />
+<div class="banner">
+	<div class="nr">
+		<div class="lanmu"><img src="images/news03.png" width="280" height="80" alt=""/></div>
+		<div class="mbx"><span class="yuan">●</span>当前位置：  <yang:position /> </i><span>{$cate.name}</span></div>
+	</div>
+</div>
+
+
+<div class="neironye">
+	<div class="daohanglan">
+		<div class="bt">
+			<div class="zw">产品追溯</div>
+			<div class="yw">Contact us</div>
+		</div>
+			<if condition="$flag_son">
+				<yang:catlist typeid='$cid' type='son' flag='1'>
+				<a href="{:U('list/index', array('cid' => 395))}"><div class='lm on'>质量溯源</div></a>
+				<a href="{$catlist.url}"><div class="lm">{$catlist.name}</div></a>
+				</yang:catlist>
+			<else/>
+				<if condition = "$cate['pid'] gt 0">
+					<yang:catlist typeid="$cate['pid']" typepid="$cid" type='son' flag='1'>
+						<a href="{:U('list/index', array('cid' => 395))}"><div class='lm'>质量溯源</div></a>
+						<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+					</yang:catlist>
+				</if>
+			</if>
+	</div>
+
+	<div class="neirongxx">
+		<div class="sousuo">
+			<div class="biaotixx">识别代码</div>
+			<input type="text" class="sousk" placeholder="请输入识别代码查询">
+			<a href="#"><div class="anniu">查询</div></a>
+		</div>
+		<div class="trace" style="display:none">
+
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />
+<script>
+$(function(){
+	var unit_id = '{$Think.get.unit_id}';
+
+	var	seedlist;
+	var timer;
+	function q(unit_id) {
+		$('.trace').hide();
+		$.ajax(  
+				{  
+		        type:'post',  
+		        url : 'http://jpny.erp.mooga.cn/index.php?m=api&c=seed&a=get_tarce_info',  
+		        dataType : 'jsonp',
+			    data:{kw:unit_id},
+		        success  : function(data) {  
+		            if(data.status){
+		            	seedlist = data.data;
+		            	companylist = data.info;
+		            	timer = setTimeout(function(){ 
+		            		$('.trace').show();
+		            	},1000);
+		            	var html = 	'<div class="btxx1">'
+										+'<div class="xxbt">溯源信息</div>'
+										+'<div class="bt">品种名称：</div>'
+										+'<div class="bt nr">'+ seedlist.name +'</div>'
+										+'<div class="bt">单元识别码：</div>'
+										+'<div class="bt nr">'+ seedlist.unit_id +'</div>'
+										+'<div class="bt">生产经营者：</div>'
+										+'<div class="bt nr">'+companylist.MALL_COMPANY_NAME+'</div>'
+										+'<div class="bt">生产批次：</div>'
+										+'<div class="bt nr">'+ seedlist.batch +'</div>'
+										/*+'<div class="bt">识别代码：</div>'
+										+'<div class="bt nr">'+ seedlist.unit_id +'</div>'*/
+										+'<div class="bt">流水线号：</div>'
+										+'<div class="bt nr">'+ seedlist.line +'</div>'
+										+'<div class="bt">追溯网址：</div>'
+										+'<div class="bt nr">http://j8p.cc/'+seedlist.unit_id+'</div>'
+										+'<div class="bt">包装级别：</div>'
+										+'<div class="bt nr">'+ seedlist.seed_package +'</div>'
+									+'</div>'
+									+'<div class="btxx1">'
+										+'<div class="xxbt">品种信息</div>'
+										+'<div class="bt">种子名称：</div>'
+										+'<div class="bt nr">'+ seedlist.name +'</div>'
+										+'<div class="bt">产地：</div>'
+										+'<div class="bt nr">'+ seedlist.origin +'</div>'
+										+'<div class="bt">作物种类：</div>'
+										+'<div class="bt nr">'+ seedlist.species +'</div>'
+										+'<div class="bt">芽率：</div>'
+										+'<div class="bt nr">'+ seedlist.rate +'</div>'
+										+'<div class="bt">种子类别：</div>'
+										+'<div class="bt nr">'+ seedlist.category +'</div>'
+										+'<div class="bt">纯度：</div>'
+										+'<div class="bt nr">'+ seedlist.burity +'</div>'
+										+'<div class="bt">净度：</div>'
+										+'<div class="bt nr">'+ seedlist.cleaness +'</div>'
+										+'<div class="bt">净含量：</div>'
+										+'<div class="bt nr">'+ seedlist.content +'</div>'
+										+'<div class="bt">水分：</div>'
+										+'<div class="bt nr">'+ seedlist.moisture +'</div>'
+										+'<div class="bt">质量保证期：</div>'
+										+'<div class="bt nr">'+ seedlist.quality +'</div>'
+										+'<div class="bt">经营许可证：</div>'
+										+'<div class="bt nr">'+ seedlist.seed_license +'</div>'
+										+'<div class="bt">检测日期：</div>'
+										+'<div class="bt nr">'+ seedlist.seed_checkdate +'</div>'
+										+'<div class="bt">检疫证：</div>'
+										+'<div class="bt nr">'+ seedlist.seed_cert +'</div>'
+									+'</div>'
+									+'<div class="btxx1">'
+										+'<div class="xxbt">栽培信息</div>'
+										+'<div class="bt">品种主要性状：</div>'
+										+'<div class="bt nr quqnc">'+ seedlist.traits +'</div>'
+										+'<div class="bt">主要栽培措施：</div>'
+										+'<div class="bt nr quqnc">'+ seedlist.measure +'</div>'
+										+'<div class="bt">适应性：</div>'
+										+'<div class="bt nr quqnc">'+ seedlist.adapt +'</div>'
+										+'<div class="bt">种植区域/季节：</div>'
+										+'<div class="bt nr quqnc">'+ seedlist.area +'</div>'
+										+'<div class="bt">亩用种量：</div>'
+										+'<div class="bt nr quqnc">'+ seedlist.mu +'</div>'
+									+'</div>'
+									+'<div class="btxx1">'
+										+'<div class="xxbt">风险提示</div>'
+										+'<div class="bt" style="width:95%;">'+ seedlist.risk +'</div>'
+									+'</div>'
+									+'<div class="btxx1">'
+										+'<div class="xxbt">生产经营者信息</div>'
+										+'<div class="bt">生产单位：</div>'
+										+'<div class="bt nr">'+companylist.MALL_COMPANY_NAME+'</div>'
+										+'<div class="bt">联系电话：</div>'
+										+'<div class="bt nr">'+companylist.COMPANY_TEL+'</div>'
+										+'<div class="bt">单位地址：</div>'
+										+'<div class="bt nr">'+companylist.COMPANY_ADDRESS+'</div>'
+										+'<div class="bt">公司传真：</div>'
+										+'<div class="bt nr">'+companylist.COMPANY_FAX+'</div>'
+									+'</div>'
+									+'<div class="btxx1">'
+										+'<div class="xxbt">物流信息</div>'
+										+'<div class="bt">'+ seedlist.sendtime +'</div>'
+										+'<div class="bt nr wuliu">厂家由福州发货</div>'
+									+'</div>';
+		            }else{
+		            	timer = setTimeout(function(){ 
+		            		$('.trace').show();
+		            	},1000);
+		            	var html = 	'<div class="btxx1">'
+										+'<div class="xxbt" align="center">请填写正确的识别码</div>'
+									+'</div>';
+		            }
+		            $('.trace').html(html);
+		        },  
+		        error : function() {  
+		            alert('请求失败');  
+		        }  
+			}
+		);
+	}
+
+	$('.anniu').click(function(){
+		unit_id = $('.sousk').val();
+		q(unit_id);
+	});
+
+	if (unit_id.length > 0) { 
+		$('.sousk').val(unit_id);
+		q(unit_id);
+	}
+})
+	
+</script>

@@ -1,0 +1,46 @@
+<include file="Public:header" />
+	<div id="container">
+		<yang:abc id='1' limit=''>
+		<div class="sections">
+			<div class="section" id="section0" style="background-image: url({$abc.content});"></div>
+		</div>
+		</yang:abc>
+	</div>
+
+	<div class="cpzs">
+	<div class="biaoti"><span class="yanse">产品</span>展示</div>
+	<div class="fubiaoti">Product show</div>
+	<div class="cptp">
+		<yang:catlist typeid='13' type='son' flag='1'>
+			<a href="{$catlist.url}">
+				<div class="tupnr" style="margin-right: 10px;">
+					<div class="tp"><img src="{$catlist.catpic}" width="279" height="279" alt=""/></div>
+					<div class="mc">{$catlist.name}</div>
+				</div>
+			</a>
+		</yang:catlist>
+	</div>
+	<a href="{:U('list/index', array('cid' => 5))}">
+		<div class="genduocp">
+		更多产品
+		</div>
+	</a>
+	
+	</div>
+
+	<div class="guanyujp">
+		<div class="biaoti">关于<span class="yanse">金品</span></div>
+		<div class="fubiaoti">About Jingpin</div>
+		<yang:catlist typeid='1' type='son' flag='1' limit='4'>
+			<a href="{$catlist.url}">
+			<div class="jinpin" style="margin-right: 20px;">
+			<div class="tb"><img src="{$catlist.catpic}" width="70" height="90" alt=""/></div>
+			<div class="rihgt">
+			<div class="bt">{$catlist.name}</div>
+			<div class="nr">{$catlist.description}</div>
+			</div>
+			</div>
+			</a>
+		</yang:catlist>
+	</div>
+	<include file="Public:footer" />

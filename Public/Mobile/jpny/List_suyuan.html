@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="user-scalable=0;" name="viewport" />
+<title>种子溯源</title>
+<link href="/Public/Mobile/jpny/css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="/Public/Mobile/jpny/css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/Public/Mobile/jpny/js/jquery-1.8.3.min.js"></script>
+<style type="text/css">
+	a {text-decoration:none;}
+	.block:link {color:black;text-decoration:none;}     /* 未被访问的链接     */
+	.block:visited {color:black}  /* 已被访问过的链接    */
+</style>
+</head>
+<body>
+
+<div class="head">
+	<a href="{:U('list/index', array('cid' => 392, 'unit_id'=> $unit_id))}" target=_self>
+		<div class="left"></div>
+	</a>
+	<div class="center">种子溯源</div>
+</div>
+<div class="kong"></div>
+<div class="sytp"><img src="/Public/Mobile/jpny/images/sytp_02.png" width="640" height="233" alt=""/></div>
+<div class="seed" style="display:none"></div>
+<div class="xiangqd shouye">
+	<div class="lieb setting">    
+		<div class="left">溯源信息</div>
+	</div>
+	<div class="nr">
+
+	</div>
+</div>
+<div class="tiao h80 t20">
+	<a class="block" href="{:U('list/index', array('cid' => 397, 'unit_id'=> $unit_id))}"><div class="bt">质量追溯<i class="iconfont icon-jiantoujinru"></i></div></a>
+</div>
+<div class="tiao h80 t20">
+	<div class="bt click">种子追溯<i class="iconfont icon-jiantoujinru"></i></div></a>
+</div>
+</body>
+</html>
+<script>
+$(function(){
+	var unit_id = '{$Think.get.unit_id}';
+	var	seedlist;
+	function q(unit_id) {
+		$.ajax(
+				{
+		        type:'post',  
+		        url : 'http://jpny.erp.mooga.cn/?m=api&c=seed&a=get_tarce_info',  
+		        dataType : 'jsonp',
+			    data:{kw:unit_id},
+		        success  : function(data) {
+		            if(data.status){
+		            	seedlist = data.data;
+		            	companylist = data.info;
+		            	var html = 	'<div class="bt">品种名称：</div><div class="wzbf">'+ seedlist.name +'</div>'
+									+'<div class="bt">生产经营者：</div><div class="wzbf">'+companylist.MALL_COMPANY_NAME+'</div>'
+									+'<div class="bt">识别代码：</div><div class="wzbf">'+ seedlist.unit_id +'</div>'
+									+'<div class="bt">追溯网址：</div><div class="wzbf">http://j8p.cc/'+seedlist.unit_id+'</div>';
+						$('.nr').html(html);
+						var html1 =	'<div class="xiangqd">'
+										+'<div class="lieb setting">    '
+											+'<div class="left">单元识别码：</div>'
+											+'<div class="right">'+ seedlist.name +'</div>'
+										+'</div>'
+										+'<div class="lieb setting">    '
+											+'<div class="left">生产批次：</div>'
+											+'<div class="right">'+ seedlist.batch +'</div>'
+										+'</div>'
+										+'<div class="lieb setting">    '
+											+'<div class="left">流水线号：</div>'
+											+'<div class="right">'+ seedlist.line +'</div>'
+										+'</div>'
+										+'<div class="lieb setting di">  '  
+											+'<div class="left">包装级别：</div>'
+											+'<div class="right">'+ seedlist.seed_package +'</div>'
+										+'</div>'
+									+'</div>'
+									+'<div class="wlbj">'
+										+'<div class="xiangqd">'
+											+'<div class="lieb setting di"> '   
+												+'<div class="left">物流详情</div>'
+												+'<div class="right">已发货</div>'
+											+'</div>'
+										+'</div>'
+										+'<div class="dtkdzt on">'
+											+'<div class="dtzt on"></div>'
+											+'<div class="left">  '   
+												+'<div class="ztxx on">'
+													+'<p class="time">'+seedlist.sendtime+'</p>'
+													+'<p class="zt">厂家从福州发出</p>'
+												+'</div>'
+											+'</div>'
+										+'</div>'
+									+'</div>';
+						$('.seed').html(html1);
+		            }else{
+		            	var html = 	'<div class="btxx1">'
+										+'<div class="xxbt" align="center">请填写正确的识别码</div>'
+									+'</div>';
+		            }
+		            $('.trace').html(html);
+		        },  
+		        error : function() {  
+		            alert('请求失败');  
+		        }  
+			}
+		);
+	}
+
+	if (unit_id.length > 0) { 
+		$('.sousk').val(unit_id);
+		q(unit_id);
+	}
+	$('.click').click(function(){
+		$('.tiao').hide();
+		$('.shouye').hide();
+		$('.seed').show();
+
+		
+	})
+})
+	
+</script>
+
+

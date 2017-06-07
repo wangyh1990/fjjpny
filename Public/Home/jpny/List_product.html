@@ -1,0 +1,57 @@
+<include file="Public:header" />
+	<yang:abc id='4' limit=''>
+	<div class="banner product" style="background-image: url({$abc.content});">
+	</yang:abc>
+		<div class="nr">
+			<yang:abc id='11' limit=''>
+			<div class="lanmu"><img src="{$abc.content}" width="300" height="80" alt=""></div>
+			</yang:abc>
+			<div class="mbx"><span class="yuan">●</span>当前位置：  <yang:position /> </i><span>{$cate.name}</span></div>
+		</div>
+	</div>
+	
+<div class="neironye">
+	<div class="daohanglan">
+	<div class="bt">
+	<div class="zw">产品中心</div>
+	<div class="yw">Product Center</div>
+	</div>
+	<if condition="$flag_son">
+		<a href="{:U('list/index', array('cid' => 5))}"><div class='lm on'>全部产品</div></a>
+		<yang:catlist typeid='$cid' typepid="0" type='son' flag='1'>
+			<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+		</yang:catlist>
+	<else/>
+		<if condition = "$cate['pid'] gt 0">
+			<a href="{:U('list/index', array('cid' => 5))}"><div class='lm'>全部产品</div></a>
+			<yang:catlist typeid="$cate['pid']" typepid="$cid" type='son' flag='1'>
+				<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+			</yang:catlist>
+		</if>
+	</if>
+	</div>
+
+
+	<div class="neirongxx product">
+
+		
+		<div class="cpxxzx">
+		<yang:list pagesize='9'>
+		<a href="{$list.url}">
+			<div class="cp">
+				<div class="tp">
+					<if condition="!empty($list['litpic'])">
+						<img src="{$list.litpic}" width="236" height="236" alt=""/>
+					</if>
+				</div>
+				<div class="wzms">
+					<div class="mc">{$list.title}</div>
+					<div class="gg">规格：{$list.specification}</div>
+				</div>
+			</div>
+		</a>
+		</yang:list>
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />

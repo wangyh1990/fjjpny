@@ -1,0 +1,60 @@
+<include file="Public:header" />
+	<yang:abc id='6' limit=''>
+	<div class="banner product" style="background-image: url({$abc.content});">
+	</yang:abc>
+		<div class="nr">
+			<yang:abc id='9' limit=''>
+			<div class="lanmu"><img src="{$abc.content}" width="300" height="80" alt=""></div>
+			</yang:abc>
+			<div class="mbx"><span class="yuan">●</span>当前位置：  <yang:position /> </i><span>{$cate.name}</span></div>
+		</div>
+	</div>
+	
+	<div class="neironye">
+		<div class="daohanglan" >
+			<div class="bt">
+				<div class="zw">联系我们</div>
+				<div class="yw">Contact us</div>
+			</div>
+			<if condition="$flag_son">
+				<a href="{:U('list/index', array('cid' => 2))}"><div class='lm on'>全部新闻</div></a>
+				<yang:catlist typeid='$cid' typepid="0" type='son' flag='1'>
+					<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+				</yang:catlist>
+			<else/>
+				<if condition = "$cate['pid'] gt 0">
+					<a href="{:U('list/index', array('cid' => 2))}"><div class='lm'>全部新闻</div></a>
+					<yang:catlist typeid="$cate['pid']" typepid="$cid" type='son' flag='1'>
+						<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+					</yang:catlist>
+				</if>
+			</if>	
+		</div>
+
+
+		<div class="neirongxx">
+		<yang:list pagesize='9'>
+		<a href="{$list.url}">
+			<div class="xw">
+			<if condition = "$list['litpic'] eq true">
+			<div class="lefttp"><img src="{$list.litpic}" width="560" height="373" alt=""/></div>
+			<else/>
+			<div class="lefttp"><img src="__PUBLIC__/images/tubiao_05.png" width="560" height="373" alt=""/></div>
+			</if>
+			<div class="xqnr">
+			<div class="bt">{$list.title}</div>
+			<div class="nrzt">{$list.description}</div>
+			<div class="time"><i class="iconfont icon-shijian"></i>{$list.publishtime|date='Y-m-d',###}</div>
+			</div>
+			</div>
+		</a>
+		</yang:list>
+		<div class="fenyebq">
+			<div class="scott mt">{$page}</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	</div>
+
+<include file="Public:footer" />

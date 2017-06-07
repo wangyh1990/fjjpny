@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="user-scalable=no;" name="viewport" />
+<title>质量溯源</title>
+<link href="/Public/Mobile/jpny/css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="/Public/Mobile/jpny/css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/Public/Mobile/jpny/js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+
+<div class="head">
+	<a href="{:U('list/index', array('cid' => 395, 'unit_id'=> $unit_id))}" target=_self>
+		<div class="left"></div>
+	</a>
+	<div class="center">质量溯源</div>
+</div>
+<div class="kong"></div>
+<div class="sytp"><img src="/Public/Mobile/jpny/images/sytp_02.png" width="640" height="233" alt=""/></div>
+<div class="xiangqd h1">
+	
+</div>
+
+<div class="xiangqd">
+<div class="lieb setting">    
+<div class="left">溯源信息</div>
+</div>
+
+<div class="nr">
+	
+</div>
+</div>
+<div class="xiangqd h2">
+	
+
+</div>
+<div class="xiangqd h3">
+	
+
+</div>
+
+<div class="xiangqd h4">
+	
+</div>
+
+<div class="wlbj">
+	
+</div>
+
+
+</body>
+</html>
+<script>
+$(function(){
+	var unit_id = '{$Think.get.unit_id}';
+	var	seedlist;
+	function q(unit_id) {
+		$('.trace').hide();
+		$.ajax(  
+				{  
+		        type:'post',  
+		        url : 'http://jpny.erp.mooga.cn/?m=api&c=Seed&a=get_tarce_info',  
+		        dataType : 'jsonp',
+			    data:{kw:unit_id},
+		        success  : function(data) {
+		            if(data.status){
+		            	seedlist = data.data;
+		            	companylist = data.info;
+		            	var html = 	'<div class="lieb setting">'    
+										+'<div class="left">单元识别码：</div>'
+										+'<div class="right">'+ seedlist.unit_id +'</div>'
+									+'</div>'
+									+'<div class="lieb setting">'    
+										+'<div class="left">生产批次：</div>'
+										+'<div class="right">'+ seedlist.batch +'</div>'
+									+'</div>'
+									+'<div class="lieb setting"> '   
+										+'<div class="left">流水线号：</div>'
+										+'<div class="right">'+ seedlist.line +'</div>'
+									+'</div>'
+									+'<div class="lieb setting di"> '   
+										+'<div class="left">包装级别：</div>'
+										+'<div class="right">'+ seedlist.seed_package +'</div>'
+									+'</div>';
+						var html1 =	'<div class="bt">品种名称：</div><div class="wzbf">'+ seedlist.name +'</div>'
+									+'<div class="bt">作物种类：</div><div class="wzbf">'+ seedlist.species +'</div>'
+									+'<div class="bt">种子类别：</div><div class="wzbf">'+ seedlist.category +'</div>'
+									+'<div class="bt">净含量：</div><div class="wzbf">'+ seedlist.content +'</div>'
+									+'<div class="bt">产地：</div><div class="wzbf">'+ seedlist.origin +'</div>'
+
+									+'<div class="bt">芽率：</div><div class="wzbf">'+ seedlist.rate +'</div>'
+									+'<div class="bt">纯度：</div><div class="wzbf">'+ seedlist.burity +'</div>'
+									+'<div class="bt">净度：</div><div class="wzbf">'+ seedlist.cleaness +'</div>'
+									+'<div class="bt">水分：</div><div class="wzbf">'+ seedlist.moisture +'</div>'
+									+'<div class="bt">经营许可证：</div><div class="wzbf">'+ seedlist.seed_license +'</div>'
+									+'<div class="bt">检疫证：</div><div class="wzbf">'+ seedlist.seed_cert +'</div>'
+									+'<div class="bt">质量保证期：</div><div class="wzbf">'+ seedlist.quality +'</div>'
+									+'<div class="bt">检测日期：</div><div class="wzbf">'+ seedlist.seed_checkdate +'</div>';
+						var html2 = '<div class="lieb setting">' 
+										+'<div class="left">栽培信息</div>'
+									+'</div>'
+									+'<div class="biaoti">品种主要性状：</div>'
+									+'<div class="neiron">'+ seedlist.traits +'</div>'
+
+									+'<div class="biaoti">主要栽培措施：</div>'
+									+'<div class="neiron">'+ seedlist.measure +'</div>'
+
+									+'<div class="biaoti">适应性：</div>'
+									+'<div class="neiron">'+ seedlist.adapt +'</div>'
+
+									+'<div class="biaoti">种植区域/季节：</div>'
+									+'<div class="neiron">'+ seedlist.area +'</div>'
+									
+									+'<div class="biaoti">亩用种量：</div>'
+									+'<div class="neiron">'+ seedlist.mu +'</div>'
+
+									/*+'<div class="biaoti">种植时间：</div>'
+									+'<div class="neiron">'+ seedlist.planting+'</div>'*/;
+						var html3 = '<div class="lieb setting">'
+										+'<div class="left">风险提示</div>'
+									+'</div>'
+
+									+'<div class="neiron">'+ seedlist.risk +'</div>';
+						var html4 = '<div class="lieb setting">'
+										+'<div class="left">生产经营者信息</div>'
+									+'</div>'
+									+'<div class="nr">'
+										+'<div class="bt">生产单位：</div><div class="wzbf">'+companylist.MALL_COMPANY_NAME+'</div>'
+										+'<div class="bt">单位地址：</div><div class="wzbf">'+companylist.COMPANY_ADDRESS+'</div>'
+										+'<div class="bt">联系电话：</div><div class="wzbf">'+companylist.COMPANY_TEL+'</div>'
+										+'<div class="bt">电子邮箱：</div><div class="wzbf">'+companylist.COMPANY_EMAIL+'</div>'
+									+'</div>';
+						var html5 = '<div class="xiangqd">'
+										+'<div class="lieb setting di">'
+											+'<div class="left">物流详情</div>'
+											+'<div class="right">已发货</div>'
+										+'</div>'
+									+'</div>'
+									+'<div class="dtkdzt on">'
+										+'<div class="dtzt on"></div>'
+										+'<div class="left">     '
+											+'<div class="ztxx on">'
+												+'<p class="time">'+ seedlist.sendtime +'</p>'
+												+'<p class="zt">厂家从福州发出</p>'
+											+'</div>'
+										+'</div>'
+									+'</div>';
+					$('.h1').html(html);
+		            }else{
+		            	var html = 	'<div class="btxx1">'
+										+'<div class="xxbt" align="center">请填写正确的识别码</div>'
+									+'</div>';
+		            }
+		            $('.h1').html(html);
+		            $('.nr').html(html1);
+		            $('.h2').html(html2);
+		            $('.h3').html(html3);
+		            $('.h4').html(html4);
+		            $('.wlbj').html(html5);
+		        },  
+		        error : function() {  
+		            alert('请求失败');  
+		        }  
+			}
+		);
+	}
+
+	if (unit_id.length > 0) { 
+		$('.sousk').val(unit_id);
+		q(unit_id);
+	}
+})
+	
+</script>

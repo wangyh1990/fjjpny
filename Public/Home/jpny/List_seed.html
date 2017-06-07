@@ -1,0 +1,89 @@
+<include file="Public:header" />
+<div class="banner">
+	<div class="nr">
+		<div class="lanmu"><img src="images/news03.png" width="280" height="80" alt=""/></div>
+		<div class="mbx"><span class="yuan">●</span>当前位置：  <yang:position /> </i><span>{$cate.name}</span></div>
+	</div>
+</div>
+
+
+<div class="neironye">
+	<div class="daohanglan">
+		<div class="bt">
+			<div class="zw">产品追溯</div>
+			<div class="yw">Contact us</div>
+		</div>
+			<if condition="$flag_son">
+				<yang:catlist typeid='$cid' type='son' flag='1'>
+				<a href="{:U('list/index', array('cid' => 395))}"><div class='lm on'>质量溯源</div></a>
+				<a href="{$catlist.url}"><div class="lm">{$catlist.name}</div></a>
+				</yang:catlist>
+			<else/>
+				<if condition = "$cate['pid'] gt 0">
+					<yang:catlist typeid="$cate['pid']" typepid="$cid" type='son' flag='1'>
+					<a href="{:U('list/index', array('cid' => 395))}"><div class='lm'>质量溯源</div></a>
+						<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+					</yang:catlist>
+				</if>
+			</if>
+	</div>
+
+
+	<div class="neirongxx">
+		<div class="sousuo">
+			<div class="biaotixx">识别代码</div>
+			<input type="text" class="sousk" placeholder="请输入识别代码查询">
+			<a href="#"><div class="anniu">查询</div></a>
+		</div>
+		<div class="trace" style="display:none">
+
+		</div>
+	</div>
+</div>
+<include file="Public:footer" />
+<script>
+$(function(){
+	var	seedlist;
+	var	timer;
+	$('.anniu').click(function(){
+		var unit_id = encodeURI($('.sousk').val());
+		$('.trace').hide();
+		$.ajax(  
+   			{  
+		        type:'post',  
+		        url : 'http://jpny.erp.mooga.cn/index.php?m=api&c=seed&a=get_tarce_info',  
+		        dataType : 'jsonp',
+			    data:{kw:unit_id},
+		        success  : function(data) {  
+		            if(data.status){
+		            	timer = setTimeout(function(){ 
+		            		$('.trace').show();
+		            	},1000);
+		            	seedlist = data.data;
+		            	var html = '<div class="btxx1"><div class="xxbt">溯源信息</div><div class="bt">单元识别码：</div>'
+		            				+'<div class="bt nr">'+ seedlist.unit_id +'</div><div class="bt">流水线号：</div><div class="bt nr line">'+ seedlist.line +'</div>'
+		            				+'<div class="bt">生产批次：</div><div class="bt nr batch_id">'+ seedlist.batch +'</div><div class="bt">包装级别：</div>'
+		            				+'<div class="bt nr package">'+ seedlist.seed_package +'</div></div><div class="btxx1"><div class="xxbt">物流信息</div>'
+		            				+'<div class="bt">'+ seedlist.sendtime +'</div><div class="bt nr wuliu">厂家由福州发货</div>';
+									
+		            }else{
+		            	timer = setTimeout(function(){
+		            		$('.trace').show();
+		            	},1000);
+		            	var html = 	'<div class="btxx1">'
+										+'<div class="xxbt" align="center">请填写正确的识别码</div>'
+									+'</div>';
+		            }
+		            $('.trace').html(html);
+		        },  
+		        error : function() {  
+		            alert('请求失败'); 
+		        }  
+    		}  
+		);
+	});
+  
+})
+	
+</script>
+

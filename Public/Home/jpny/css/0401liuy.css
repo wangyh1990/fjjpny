@@ -1,0 +1,54 @@
+@charset "utf-8";
+.neironye .neirongxx.contact.liuyan {
+	border: 1px solid #DCDDDD;
+	background-color: #EFEFEF;
+	font-size: 14px;
+	padding: 40px;
+	text-align: right;
+	width: 800px;
+	margin-bottom: 80px;
+}
+
+
+.neirongxx.contact.liuyan .bd .bt {
+	width: 68px;
+	height: 38px;
+	margin-right: 20px;
+	float: left;
+}
+
+.neironye .neirongxx.contact.liuyan .bd {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.neirongxx.contact.liuyan .bd .suk {
+	color: #D7000F;
+	height: auto;
+	float: left;
+
+}
+.bd .suk .sr {
+	width: 308px;
+	height: 38px;
+	border-radius: 5px;
+	border: 1px solid #DCDDDD;
+	text-indent: 16px;
+}
+.bd .suk .sr.ly {
+	height: 200px;
+	padding: 10px;
+	width: 600px;
+	font-size: 13px;
+}
+.neironye .neirongxx.contact.liuyan .anniu {
+	width: 200px;
+	height: 50px;
+	background-color: #4CAA42;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 90px;
+	margin-top: 60px;
+}

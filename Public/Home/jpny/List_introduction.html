@@ -1,0 +1,45 @@
+<include file="Public:header" />
+	<yang:abc id='3' limit=''>
+	<div class="banner about" style="background-image: url({$abc.content});">
+	</yang:abc>
+		<div class="nr">
+			<yang:abc id='12' limit=''>
+			<div class="lanmu"><img src="{$abc.content}" width="300" height="80" alt=""></div>
+			</yang:abc>
+			<div class="mbx"><span class="yuan">●</span>当前位置：  <yang:position /> </i><span>{$cate.name}</span></div>
+		</div>
+	</div>
+	
+	<div class="neironye">
+		<div class="daohanglan">
+			<div class="bt">
+				<div class="zw">关于我们</div>
+				<div class="yw">About Us</div>
+			</div>
+			<if condition="$flag_son">
+				<a href="{:U('list/index', array('cid' => 1))}"><div class='lm on'>企业介绍</div></a>
+				<yang:catlist typeid='$cid' type='son' flag='1'>
+					<a href="{$catlist.url}"><div class="lm">{$catlist.name}</div></a>
+				</yang:catlist>
+			<else/>
+				<if condition = "$cate['pid'] gt 0">
+					<a href="{:U('list/index', array('cid' => 1))}"><div class='lm'>企业介绍</div></a>
+					<yang:catlist typeid="$cate['pid']" typepid="$cid" type='son' flag='1'>
+						<a href="{$catlist.url}"><div class='lm {$catlist.class}'>{$catlist.name}</div></a>
+					</yang:catlist>
+				</if>
+			</if>
+		</div>
+
+		<div class="neirongxx about">
+
+		<div class="qyjs">
+				{$cate.content}
+			</div>
+		</div>
+
+		<div class="right">
+		</div>
+	</div>
+
+<include file="Public:footer" />

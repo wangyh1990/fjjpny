@@ -1,0 +1,2061 @@
+[ 2017-05-24T11:06:38+08:00 ] 27.156.24.208 /admin.php?s=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T11:06:38+08:00 ] 27.156.24.208 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-05-24T11:06:38+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-05-24T13:37:17+08:00 ] 27.156.24.208 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-05-24T13:37:17+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000037s ]
+
+[ 2017-05-24T14:34:28+08:00 ] 101.226.68.215 /admin.php?s%3D/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T14:34:28+08:00 ] 101.226.68.215 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:05:09+08:00 ] 27.156.24.208 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:05:09+08:00 ] 27.156.24.208 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:05:09+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-05-24T16:05:18+08:00 ] 27.156.24.208 /admin.php?s=/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `xyh_admin` SET `logintime`='1495613118',`loginip`='27.156.24.208' WHERE `id` = 1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyh_role_user` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `xyh_role_user` WHERE `user_id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-24T16:05:18+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-05-24T16:05:18+08:00 ] 27.156.24.208 /admin.php?s=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 AND `quick` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005123s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-05-24T16:05:18+08:00 ] 27.156.24.208 /admin.php?s=/Public/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SELECT VERSION() as ver; [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: mj_VER /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+NOTIC: [8] Undefined index: TIME /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-05-24T16:05:18+08:00 ] 27.156.24.208 /admin.php?s=/Index/getParentCate&pid=0&rnd=10078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT category.id AS id,category.name AS name,category.ename AS ename,category.catpic AS catpic,category.pid AS pid,category.modelid AS modelid,category.type AS type,category.seotitle AS seotitle,category.keywords AS keywords,category.description AS description,category.template_category AS template_category,category.template_list AS template_list,category.template_show AS template_show,category.status AS status,category.sort AS sort,model.name AS modelname,model.tablename AS tablename FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 ORDER BY category.sort ASC,category.id ASC  [ RunTime:0.0006s ]
+
+[ 2017-05-24T16:05:19+08:00 ] 61.151.217.45 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-05-24T16:05:22+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:05:26+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:05:28+08:00 ] 101.226.66.178 /admin.php?s=/Index/getParentCate&pid=0&rnd=10078
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:05:28+08:00 ] 101.226.66.178 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-05-24T16:05:28+08:00 ] 101.226.65.104 /admin.php?s=/Public/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:05:28+08:00 ] 101.226.65.104 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:05:36+08:00 ] 101.226.33.204 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:05:36+08:00 ] 101.226.33.204 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:05:45+08:00 ] 101.226.125.104 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:05:49+08:00 ] 101.226.125.104 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-05-24T16:05:54+08:00 ] 27.156.24.208 /admin.php?s=/Page/index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xyh_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:05:54+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:05:55+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:06:04+08:00 ] 180.153.211.190 /admin.php?s=/Page/index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:06:04+08:00 ] 180.153.211.190 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-05-24T16:06:11+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:06:56+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:07:03+08:00 ] 180.153.201.79 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:07:07+08:00 ] 180.153.201.79 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:07:37+08:00 ] 27.156.24.208 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:07:37+08:00 ] 27.156.24.208 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-05-24T16:07:38+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-05-24T16:07:47+08:00 ] 27.156.24.208 /admin.php?s=/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xyh_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `xyh_admin` SET `logintime`='1495613267',`loginip`='27.156.24.208' WHERE `id` = 1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyh_role_user` [ RunTime:0.0007s ]
+SQL: SELECT `role_id` FROM `xyh_role_user` WHERE `user_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-24T16:07:47+08:00 ] 27.156.24.208 /admin.php?s=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_menu` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 AND `quick` = 1 ORDER BY sort,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:07:47+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-05-24T16:07:48+08:00 ] 27.156.24.208 /admin.php?s=/Public/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SELECT VERSION() as ver; [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: mj_VER /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+NOTIC: [8] Undefined index: TIME /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-05-24T16:07:48+08:00 ] 27.156.24.208 /admin.php?s=/Index/getParentCate&pid=0&rnd=23163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT category.id AS id,category.name AS name,category.ename AS ename,category.catpic AS catpic,category.pid AS pid,category.modelid AS modelid,category.type AS type,category.seotitle AS seotitle,category.keywords AS keywords,category.description AS description,category.template_category AS template_category,category.template_list AS template_list,category.template_show AS template_show,category.status AS status,category.sort AS sort,model.name AS modelname,model.tablename AS tablename FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 ORDER BY category.sort ASC,category.id ASC  [ RunTime:0.0006s ]
+
+[ 2017-05-24T16:07:51+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:08:02+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-05-24T16:22:51+08:00 ] 27.156.24.208 /admin.php?s=/Login/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+
+[ 2017-05-24T16:22:51+08:00 ] 27.156.24.208 /admin.php?s=/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-05-24T16:22:51+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-05-24T16:23:33+08:00 ] 27.156.24.208 /admin.php?s=/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xyh_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `xyh_admin` SET `logintime`='1495614213',`loginip`='27.156.24.208' WHERE `id` = 1 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyh_role_user` [ RunTime:0.0006s ]
+SQL: SELECT `role_id` FROM `xyh_role_user` WHERE `user_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-24T16:23:33+08:00 ] 27.156.24.208 /admin.php?s=/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 ORDER BY sort,id  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xyh_menu` WHERE `status` = 1 AND `quick` = 1 ORDER BY sort,id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:23:33+08:00 ] 27.156.24.208 /admin.php?s=/Login/verify/id/a_login_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-05-24T16:23:34+08:00 ] 27.156.24.208 /admin.php?s=/Public/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SELECT VERSION() as ver; [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: mj_VER /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+NOTIC: [8] Undefined index: TIME /data/wwwroot/jpny/App/Runtime/Cache/Manage/47676e6e94231ce0ee5a8f992df16fca.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-05-24T16:23:34+08:00 ] 27.156.24.208 /admin.php?s=/Index/getParentCate&pid=0&rnd=33765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT category.id AS id,category.name AS name,category.ename AS ename,category.catpic AS catpic,category.pid AS pid,category.modelid AS modelid,category.type AS type,category.seotitle AS seotitle,category.keywords AS keywords,category.description AS description,category.template_category AS template_category,category.template_list AS template_list,category.template_show AS template_show,category.status AS status,category.sort AS sort,model.name AS modelname,model.tablename AS tablename FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.pid = 0 AND category.type = 0 ORDER BY category.sort ASC,category.id ASC  [ RunTime:0.0007s ]
+
+[ 2017-05-24T16:23:39+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:24:05+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/36/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:24:05+08:00 ] 27.156.24.208 /admin.php?s=/Public/editorMethod&action=config&&noCache=1495614196143
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:25:20+08:00 ] 27.156.24.208 /admin.php?s=/Model/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xyh_model` ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:25:34+08:00 ] 27.156.24.208 /admin.php?s=/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_menu` ORDER BY sort,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-05-24T16:25:43+08:00 ] 27.156.24.208 /admin.php?s=/Database/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW TABLE STATUS [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-05-24T16:25:58+08:00 ] 27.156.24.208 /admin.php?s=/Itemgroup/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_itemgroup` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_itemgroup` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_itemgroup` ORDER BY id LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:27:55+08:00 ] 27.156.24.208 /admin.php?s=/Area/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_area` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_area` WHERE `pid` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xyh_area` WHERE `pid` = 0 ORDER BY sort,id LIMIT 0,50   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-05-24T16:28:05+08:00 ] 27.156.24.208 /admin.php?s=/Meta/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_meta` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_meta` WHERE `id` > 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_meta` WHERE `id` > 0 ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:28:07+08:00 ] 27.156.24.208 /admin.php?s=/Attachment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_attachment` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachment` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_attachment` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyh_attachmentindex` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 327 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 326 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 325 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 324 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 323 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 322 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 321 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 320 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 319 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_attachmentindex` WHERE `attid` = 318 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:28:11+08:00 ] 27.156.24.208 /admin.php?s=/Templets/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:28:25+08:00 ] 27.156.24.208 /admin.php?s=/Model/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xyh_model` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:28:28+08:00 ] 27.156.24.208 /admin.php?s=/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xyh_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:28:30+08:00 ] 27.156.24.208 /admin.php?s=/Personal/pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:28:32+08:00 ] 27.156.24.208 /admin.php?s=/Personal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-05-24T16:28:43+08:00 ] 27.156.24.208 /admin.php?s=/Member/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_member` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_membergroup` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyh_memberdetail` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_member member LEFT JOIN xyh_membergroup membergroup ON member.groupid = membergroup.id LEFT JOIN xyh_memberdetail memberdetail ON member.id = memberdetail.userid WHERE member.id > 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT member.id AS id,member.email AS email,member.nickname AS nickname,member.amount AS amount,member.score AS score,member.face AS face,member.regtime AS regtime,member.logintime AS logintime,member.loginip AS loginip,member.loginnum AS loginnum,member.groupid AS groupid,member.message AS message,member.status AS status,member.islock AS islock,membergroup.name AS groupname,memberdetail.userid AS userid,memberdetail.sex AS sex,memberdetail.realname AS realname,memberdetail.birthday AS birthday,memberdetail.province AS province,memberdetail.area AS area,memberdetail.address AS address,memberdetail.qq AS qq,memberdetail.tel AS tel,memberdetail.mobile AS mobile,memberdetail.animal AS animal,memberdetail.star AS star,memberdetail.blood AS blood,memberdetail.marital AS marital,memberdetail.education AS education,memberdetail.vocation AS vocation,memberdetail.income AS income,memberdetail.maxim AS maxim,memberdetail.updatetime AS updatetime FROM xyh_member member LEFT JOIN xyh_membergroup membergroup ON member.groupid = membergroup.id LEFT JOIN xyh_memberdetail memberdetail ON member.id = memberdetail.userid WHERE member.id > 0 ORDER BY member.id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-05-24T16:28:49+08:00 ] 27.156.24.208 /admin.php?s=/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_admin` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_admin` WHERE `id` > '0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`username`,`encrypt`,`realname`,`email`,`usertype`,`logintime`,`loginip`,`islock` FROM `xyh_admin` WHERE `id` > '0' LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyh_role_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xyh_role` [ RunTime:0.0007s ]
+SQL: SELECT role_user.user_id AS user_id,role.name AS name,role.remark AS remark,role.status AS rstatus FROM xyh_role_user role_user  JOIN xyh_role role ON role_user.role_id = role.id WHERE role_user.user_id = '1'  [ RunTime:0.0005s ]
+SQL: SELECT role_user.user_id AS user_id,role.name AS name,role.remark AS remark,role.status AS rstatus FROM xyh_role_user role_user  JOIN xyh_role role ON role_user.role_id = role.id WHERE role_user.user_id = '2'  [ RunTime:0.0005s ]
+SQL: SELECT role_user.user_id AS user_id,role.name AS name,role.remark AS remark,role.status AS rstatus FROM xyh_role_user role_user  JOIN xyh_role role ON role_user.role_id = role.id WHERE role_user.user_id = '3'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-05-24T16:29:12+08:00 ] 27.156.24.208 /admin.php?s=/Rbac/role
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_role` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_role` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_role` LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-05-24T16:29:20+08:00 ] 27.156.24.208 /admin.php?s=/Rbac/node
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_node` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xyh_node` ORDER BY sort  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-05-24T16:30:01+08:00 ] 27.156.24.208 /admin.php?s=/Announce/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_announce` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_announce` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_announce` ORDER BY starttime desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-05-24T16:30:02+08:00 ] 27.156.24.208 /admin.php?s=/Link/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_link` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_link` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_link` ORDER BY sort LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-05-24T16:30:04+08:00 ] 27.156.24.208 /admin.php?s=/Guestbook/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_guestbook` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyh_guestbook` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_guestbook` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:30:10+08:00 ] 27.156.24.208 /admin.php?s=/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_comment` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyh_member` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_comment comment LEFT JOIN xyh_model model ON comment.modelid = model.id LEFT JOIN xyh_member member ON comment.userid = member.id LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT comment.id AS id,comment.postid AS postid,comment.modelid AS modelid,comment.title AS title,comment.username AS username,comment.email AS email,comment.ip AS ip,comment.agent AS agent,comment.posttime AS posttime,comment.content AS content,comment.status AS status,comment.pid AS pid,comment.userid AS userid,model.name AS modelname,model.tablename AS tablename,member.face AS face,member.nickname AS nickname FROM xyh_comment comment LEFT JOIN xyh_model model ON comment.modelid = model.id LEFT JOIN xyh_member member ON comment.userid = member.id ORDER BY comment.id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:30:18+08:00 ] 27.156.24.208 /admin.php?s=/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0006s ]
+SQL: SELECT category.id AS id,category.name AS name,category.ename AS ename,category.catpic AS catpic,category.pid AS pid,category.modelid AS modelid,category.type AS type,category.seotitle AS seotitle,category.keywords AS keywords,category.description AS description,category.template_category AS template_category,category.template_list AS template_list,category.template_show AS template_show,category.status AS status,category.sort AS sort,model.name AS modelname,model.tablename AS tablename FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id ORDER BY category.sort ASC,category.id ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:30:41+08:00 ] 27.156.24.208 /admin.php?s=/Page/index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xyh_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:30:41+08:00 ] 27.156.24.208 /admin.php?s=/Public/editorMethod&action=config&&noCache=1495614592005
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-05-24T16:31:16+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:31:19+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 10,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-05-24T16:31:21+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 20,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-05-24T16:31:22+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 30,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:31:25+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-05-24T16:31:27+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 10,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:31:28+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:31:29+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 10,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-05-24T16:35:48+08:00 ] 27.156.24.208 /admin.php?s=/System/site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xyh_config` ORDER BY groupid,sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyh_iteminfo` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xyh_iteminfo` WHERE `group` = 'configgroup' ORDER BY sort,id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xyh_iteminfo` WHERE `group` = 'configtype' ORDER BY sort,id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-05-24T16:38:39+08:00 ] 27.156.24.208 /admin.php?s=/ClearHtml/shows
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_model` [ RunTime:0.0010s ]
+SQL: SELECT category.id AS id,category.name AS name,category.ename AS ename,category.catpic AS catpic,category.pid AS pid,category.modelid AS modelid,category.type AS type,category.seotitle AS seotitle,category.keywords AS keywords,category.description AS description,category.template_category AS template_category,category.template_list AS template_list,category.template_show AS template_show,category.content AS content,category.status AS status,category.sort AS sort,model.name AS modelname,model.tablename AS tablename FROM xyh_category category LEFT JOIN xyh_model model ON category.modelid = model.id WHERE category.type = 0 ORDER BY category.sort ASC,category.id ASC  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-24T16:38:42+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:38:44+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/36/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-05-24T16:38:44+08:00 ] 27.156.24.208 /admin.php?s=/Public/editorMethod&action=config&&noCache=1495615075289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:40:04+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-05-24T16:40:08+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:40:08+08:00 ] 27.156.24.208 /admin.php?s=/Public/editorMethod&action=config&&noCache=1495615159315
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000034s ]
+
+[ 2017-05-24T16:40:17+08:00 ] 27.156.24.208 /admin.php?s=/Public/upload/img_flag/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/jpny/Include/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `xyh_attachment` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xyh_attachment` (`filepath`,`title`,`haslitpic`,`filetype`,`filesize`,`uploadtime`,`aid`) VALUES ('img1/20170524/592546f122bc2.jpg','timg.jpg','1','1','41134','1495615217','1') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-05-24T16:41:03+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: UPDATE `xyh_product` SET `title`='金品四季油麦菜',`color`='',`jumpurl`='',`cid`='5',`pictureurls`='/uploads/img1/20170524/592546f122bc2.jpg$$$$$$|||/uploads/img1/20170523/59240160cf32d.jpg$$$$$$|||/uploads/img1/20170523/5924016300e21.jpg$$$$$$|||/uploads/img1/20170523/592401654cf3a.jpg$$$$$$|||/uploads/img1/20170523/59240169d9656.jpg$$$$$$|||/uploads/img1/20170523/5924016c54ee6.jpg$$$$$$|||/uploads/img1/20170523/5924016ddf801.jpg$$$$$$|||/uploads/img1/20170523/5924016fa06f7.jpg$$$$$$|||/uploads/img1/20170523/59240171922a0.jpg$$$$$$',`keywords`='',`description`='夏秋栽培，必须催芽播种,一般4-6片真叶即可定植。株行距约15cmx2Ocm，整个生长发育期，保持田间湿润，土壤疏松。',`price`='0',`brand`='株高35-45cm，叶片长披针形，宽约6cm，叶面光滑，色泽淡绿，长势强健，产量高。 质地脆嫩，口感',`units`='',`specification`='25g/袋',`content`='',`publishtime`='1495531852',`commentflag`='1',`updatetime`='1495615263',`litpic`='/uploads/img1/20170524/592546f122bc2.jpg!300X300.jpg',`flag`='1' WHERE `id` = 37 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xyh_attachmentindex` [ RunTime:0.0008s ]
+SQL: DELETE FROM `xyh_attachmentindex` WHERE `arcid` = 37 AND `modelid` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyh_attachment` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xyh_attachment` WHERE `filepath` IN ('img1/20170524/592546f122bc2.jpg','img1/20170523/59240160cf32d.jpg','img1/20170523/5924016300e21.jpg','img1/20170523/592401654cf3a.jpg','img1/20170523/59240169d9656.jpg','img1/20170523/5924016c54ee6.jpg','img1/20170523/5924016ddf801.jpg','img1/20170523/5924016fa06f7.jpg','img1/20170523/59240171922a0.jpg')  [ RunTime:0.0006s ]
+SQL: INSERT INTO `xyh_attachmentindex` (`attid`,`arcid`,`modelid`) VALUES ('320','37','3'),('321','37','3'),('322','37','3'),('323','37','3'),('324','37','3'),('325','37','3'),('326','37','3'),('327','37','3'),('328','37','3') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+
+[ 2017-05-24T16:41:04+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+
+[ 2017-05-24T16:44:08+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit/id/37/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xyh_product` WHERE `id` = 37 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:44:08+08:00 ] 27.156.24.208 /admin.php?s=/Public/editorMethod&action=config&&noCache=1495615399037
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-05-24T16:44:11+08:00 ] 27.156.24.208 /admin.php?s=/Public/upload/img_flag/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /data/wwwroot/jpny/Include/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `xyh_attachment` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xyh_attachment` (`filepath`,`title`,`haslitpic`,`filetype`,`filesize`,`uploadtime`,`aid`) VALUES ('img1/20170524/592547db4657e.jpg','timg2.jpg','1','1','183219','1495615451','1') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-05-24T16:44:31+08:00 ] 27.156.24.208 /admin.php?s=/Product/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0011s ]
+SQL: UPDATE `xyh_product` SET `title`='金品四季油麦菜',`color`='',`jumpurl`='',`cid`='5',`pictureurls`='/uploads/img1/20170524/592547db4657e.jpg$$$$$$|||/uploads/img1/20170524/592546f122bc2.jpg$$$$$$|||/uploads/img1/20170523/59240160cf32d.jpg$$$$$$|||/uploads/img1/20170523/5924016300e21.jpg$$$$$$|||/uploads/img1/20170523/592401654cf3a.jpg$$$$$$|||/uploads/img1/20170523/59240169d9656.jpg$$$$$$|||/uploads/img1/20170523/5924016c54ee6.jpg$$$$$$|||/uploads/img1/20170523/5924016ddf801.jpg$$$$$$|||/uploads/img1/20170523/5924016fa06f7.jpg$$$$$$|||/uploads/img1/20170523/59240171922a0.jpg$$$$$$',`keywords`='',`description`='夏秋栽培，必须催芽播种,一般4-6片真叶即可定植。株行距约15cmx2Ocm，整个生长发育期，保持田间湿润，土壤疏松。',`price`='0',`brand`='株高35-45cm，叶片长披针形，宽约6cm，叶面光滑，色泽淡绿，长势强健，产量高。 质地脆嫩，口感',`units`='',`specification`='25g/袋',`content`='',`publishtime`='1495531852',`commentflag`='1',`updatetime`='1495615471',`litpic`='/uploads/img1/20170524/592547db4657e.jpg!300X300.jpg',`flag`='1' WHERE `id` = 37 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xyh_attachmentindex` [ RunTime:0.0007s ]
+SQL: DELETE FROM `xyh_attachmentindex` WHERE `arcid` = 37 AND `modelid` = 3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyh_attachment` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xyh_attachment` WHERE `filepath` IN ('img1/20170524/592547db4657e.jpg','img1/20170524/592546f122bc2.jpg','img1/20170523/59240160cf32d.jpg','img1/20170523/5924016300e21.jpg','img1/20170523/592401654cf3a.jpg','img1/20170523/59240169d9656.jpg','img1/20170523/5924016c54ee6.jpg','img1/20170523/5924016ddf801.jpg','img1/20170523/5924016fa06f7.jpg','img1/20170523/59240171922a0.jpg')  [ RunTime:0.0006s ]
+SQL: INSERT INTO `xyh_attachmentindex` (`attid`,`arcid`,`modelid`) VALUES ('320','37','3'),('321','37','3'),('322','37','3'),('323','37','3'),('324','37','3'),('325','37','3'),('326','37','3'),('327','37','3'),('328','37','3'),('329','37','3') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+
+[ 2017-05-24T16:44:32+08:00 ] 27.156.24.208 /admin.php?s=/Product/index/pid/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_product` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xyh_category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT product.id AS id,product.title AS title,product.color AS color,product.keywords AS keywords,product.litpic AS litpic,product.description AS description,product.price AS price,product.marketprice AS marketprice,product.brand AS brand,product.units AS units,product.specification AS specification,product.publishtime AS publishtime,product.updatetime AS updatetime,product.click AS click,product.cid AS cid,product.commentflag AS commentflag,product.flag AS flag,product.jumpurl AS jumpurl,product.status AS status,product.userid AS userid,product.aid AS aid,category.name AS catename,category.ename AS ename,category.modelid AS modelid FROM xyh_product product LEFT JOIN xyh_category category ON product.cid = category.id WHERE product.status = 0 AND product.cid IN (5,'6','7','18','19','20','21','399','400','401') ORDER BY product.id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-05-24T16:45:24+08:00 ] 27.156.24.208 /admin.php?s=/System/site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: lite /data/wwwroot/jpny/Include/Library/Think/Db.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyh_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xyh_config` ORDER BY groupid,sort  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000033s ]
+

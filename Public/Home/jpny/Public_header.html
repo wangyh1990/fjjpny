@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{$title}-<yang:sitename /></title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/css.css">
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/css/iconfont.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="__PUBLIC__/dist/pageSwitch.min.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/zzsc.css" />
+<link href="__PUBLIC__/css/0401liuy.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/zzsc.js"></script>
+
+</head>
+
+<body>
+	<div class="mod_qr">
+		<yang:abc id='14' limit=''>
+	    	<a href="#" class="mod_qr_bd">
+		    <span class="h">逛微信商城</span>
+		    <img src="{$abc.content}" alt="手机逛商城">
+		    <span class="h">下载手机APP</span>
+		    <img src="{$abc.content}" alt="手机逛商城">
+	  	</a>
+	  	</yang:abc>
+	   	<a href="javascript:void(0);" id="close" class="fixed_qr_close"><s class="qricon s_s_close"></s></a>
+	</div>
+
+	<div class="bottom_tools">
+	  <a id="feedback" href="#" title="在线客服">意见反馈</a>
+	  <a id="scrollUp" href="javascript:;" title="飞回顶部"></a>
+	</div>
+
+	<div class="head">
+		<div class="tou">
+			<div class="wz">
+				<div class="wz2"><i class="iconfont icon-rexian"></i><yang:phone /></div>
+				<div class="wz2 cz"><i class="iconfont icon-icon"></i>传真(FAX)<yang:fax /></div>
+				<div class="kh"><yang:publicty /></div>
+			</div>
+		</div>
+		<div class="daohang">
+			<div class="nr">
+				<a href="<yang:siteurl />">
+				<yang:abc id='13' limit=''>
+				<div class="logo"><img src="{$abc.content}"></div>
+				</yang:abc>
+				</a>
+
+				<if condition="$cid">
+					<yang:navlist typeid='0' typepid="$cid">
+						<a href='{$navlist.url}'><div class="anniu {$navlist.class}">{$navlist.name}</div></a>
+					</yang:navlist>
+				<else/>
+					<yang:navlist typeid='0' typepid="$content['cid']">
+						<a href='{$navlist.url}'><div class="anniu {$navlist.class}">{$navlist.name}</div></a>
+					</yang:navlist>
+				</if>
+				<if condition="$cid">
+					<a href="<yang:siteurl />"><div class="anniu">首 页</div></a>
+				<elseif condition="$content['cid']"/>
+					<a href="<yang:siteurl />"><div class="anniu">首 页</div></a>
+				<else/>
+					<a href="<yang:siteurl />"><div class="anniu on">首 页</div></a>
+				</if>
+			</div>
+		</div>
+	</div>

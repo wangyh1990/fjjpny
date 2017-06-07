@@ -1,0 +1,55 @@
+<div class="foot">
+	<div class="nr">
+		<a href="<yang:siteurl />">
+			<yang:abc id='13' limit=''>
+			<div class="logo">
+				<div class="tp"><img src="{$abc.content}"></div>
+			</div>
+			</yang:abc>
+		</a>
+		</a>
+		<div class="ksrk">
+			<div class="bt">快速入口</div>
+			<div class="rukou">
+				<a href="<yang:siteurl />"><div class="nrfy" style="width: 56px;">首页</div></a>
+				<yang:navlist typeid='0'>
+					
+					<a href='{$navlist.url}'><div class="nrfy" style="width: 56px;">{$navlist.name}</div></a>
+				</yang:navlist>
+			</div>
+		</div>
+		<div class="erweima">
+			<div class="bt">关注我们</div>
+			<yang:abc id='14' limit=''>
+			<div class="rukou">
+				<div class="erwm"><img src="{$abc.content}" width="100" height="100" alt=""/></div>
+				<div class="erwm"><img src="{$abc.content}" width="100" height="100" alt=""/></div>
+			</div>
+			</yang:abc>
+			<div class="mcsm">微信商城</div>
+			<div class="mcsm">下载AAP</div>
+		</div>
+		<div class="ksrk lx">
+			<div class="bt">联系我们</div>
+			<div class="rukou lx"style="width: 300px;">
+			地址：<yang:address /><br>
+			传真(FAX): <yang:fax /><br>
+  			热线服务：<yang:phone /><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="difoot">
+	<div class="nr" style="height: 70px;">
+	<div class="right"><yang:copyright />&nbsp;<yang:beian /></div>
+	</div>
+</div>
+
+<script>
+$(function(){
+	$(".fixed_qr_close").click(function(){
+		$(".mod_qr").hide();
+	})
+})
+</script>

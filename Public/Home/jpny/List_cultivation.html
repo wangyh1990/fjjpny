@@ -1,0 +1,37 @@
+<include file="Public:header" />
+	<yang:abc id='7' limit=''>
+	<div class="banner technology" style='background-image: url({$abc.content});'>
+	</yang:abc>
+		<div class="nr">
+			<yang:abc id='8' limit=''>
+			<div class="lanmu"><img src="{$abc.content}" width="300" height="80" alt=""></div>
+			</yang:abc>
+			<div class="mbx"><span class="yuan">●</span>当前位置： <yang:position /> </i><span>{$cate.name}</span></div>
+		</div>
+	</div>
+	
+<div class="neironye">
+	<div class="wzlb">
+		<yang:list pagesize='9'>
+		<a href="{$list.url}">
+				<div class="zpwz">
+					<if condition = "$list['litpic'] eq true">
+						<div class="tp"><img src="{$list.litpic}" width="268" height="190" alt=""/></div>
+					<else/>
+						<div class="tp"><img src="__PUBLIC__/images/tubiao_10.png" width="268" height="190" alt=""/></div>
+					</if>
+					<div class="bt">{$list.title}</div>
+					<div class="time"><i class="iconfont icon-shijian"></i>{$list.publishtime|date='Y-m-d',###}</div>
+					<div class="nr">{$list.description}</div>
+				</div>
+		</a>
+		</yang:list>
+	</div>
+	<div class="fenyebq">
+			<div class="scott mt">{$page}
+				<div class="clear"></div>
+			</div>
+		</div>
+</div>
+
+<include file="Public:footer" />
