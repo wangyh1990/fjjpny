@@ -40,11 +40,11 @@ class ShowController extends HomeCommonController
         }
 
         $cate = get_category(1);
-        if (!empty($ename)) { //ename不为空
+        if (!empty($ename)){
+            //ename不为空
             $self = Category::getSelfByEName($cate, $ename); //当前栏目信息
         } else {
-//$cid来判断
-
+            //$cid来判断
             $self = Category::getSelf($cate, $cid); //当前栏目信息
         }
 
@@ -94,65 +94,65 @@ class ShowController extends HomeCommonController
 
         switch ($self['tablename']) {
             case 'article':
-                break;
+            break;
             case 'phrase':
-                break;
+            break;
             case 'page':
-                return;
-                break;
+            return;
+            break;
             case 'picture':
                 //把序列化过的数组恢复
-                $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
+            $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
 
-                $pictureurls = array();
-                foreach ($pictureurls_arr as $v) {
-                    $temp_arr = explode('$$$', $v);
-                    if (!empty($temp_arr[0])) {
-                        $pictureurls[] = array(
-                            'url' => $temp_arr[0],
-                            'alt' => $temp_arr[1],
+            $pictureurls = array();
+            foreach ($pictureurls_arr as $v) {
+                $temp_arr = explode('$$$', $v);
+                if (!empty($temp_arr[0])) {
+                    $pictureurls[] = array(
+                        'url' => $temp_arr[0],
+                        'alt' => $temp_arr[1],
                         );
-                    }
                 }
-                $content['pictureurls'] = $pictureurls;
+            }
+            $content['pictureurls'] = $pictureurls;
                 //p($pictureurls);
-                break;
+            break;
             case 'product':
                 //把序列化过的数组恢复
-                $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
+            $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
 
-                $pictureurls = array();
-                foreach ($pictureurls_arr as $v) {
-                    $temp_arr = explode('$$$', $v);
-                    if (!empty($temp_arr[0])) {
-                        $pictureurls[] = array(
-                            'url' => $temp_arr[0],
-                            'alt' => $temp_arr[1],
+            $pictureurls = array();
+            foreach ($pictureurls_arr as $v) {
+                $temp_arr = explode('$$$', $v);
+                if (!empty($temp_arr[0])) {
+                    $pictureurls[] = array(
+                        'url' => $temp_arr[0],
+                        'alt' => $temp_arr[1],
                         );
-                    }
                 }
-                $content['pictureurls'] = $pictureurls;
+            }
+            $content['pictureurls'] = $pictureurls;
                 //p($pictureurls);
-                break;
+            break;
 
             case 'soft':
                 //图片
-                $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
-                $pictureurls     = array();
-                foreach ($pictureurls_arr as $v) {
-                    $temp_arr = explode('$$$', $v);
-                    if (!empty($temp_arr[0])) {
-                        $pictureurls[] = array(
-                            'url' => $temp_arr[0],
-                            'alt' => $temp_arr[1],
+            $pictureurls_arr = empty($content['pictureurls']) ? array() : explode('|||', $content['pictureurls']);
+            $pictureurls     = array();
+            foreach ($pictureurls_arr as $v) {
+                $temp_arr = explode('$$$', $v);
+                if (!empty($temp_arr[0])) {
+                    $pictureurls[] = array(
+                        'url' => $temp_arr[0],
+                        'alt' => $temp_arr[1],
                         );
-                    }
                 }
-                $content['pictureurls'] = $pictureurls;
+            }
+            $content['pictureurls'] = $pictureurls;
 
                 //下载地址:
-                $downlink_arr = empty($content['downlink']) ? array() : explode('|||', $content['downlink']);
-                $downlink     = array();
+            $downlink_arr = empty($content['downlink']) ? array() : explode('|||', $content['downlink']);
+            $downlink     = array();
                 $at           = 0; //索引
                 foreach ($downlink_arr as $v) {
                     $temp_arr = explode('$$$', $v);
@@ -161,61 +161,61 @@ class ShowController extends HomeCommonController
                             //'url' => $temp_arr[1],
                             'url'   => U('Show/download', array('id' => $id, 'at' => $at)),
                             'title' => $temp_arr[0],
-                        );
+                            );
                         $at++;
                     }
                 }
                 $content['downlink'] = $downlink;
 
                 break;
-            default:
+                default:
                 $userOther = A(ucfirst($self['tablename']));
                 $userOther->shows();
                 return;
                 break;
+            }
+
+            $this->assign('content', $content);
+            $this->display($template_show);
+
         }
 
-        $this->assign('content', $content);
-        $this->display($template_show);
-
-    }
-
-    public function download()
-    {
-        $id = I('id', 0, 'intval');
-        $at = I('at', 0, 'intval');
-        if (empty($id)) {
-            $this->error('参数错误');
-        }
-        $downlink_tmp = M('soft')->where(array('id' => $id))->getField('downlink');
-        if (empty($downlink_tmp)) {
-            $this->error('文件不存在');
-        }
+        public function download()
+        {
+            $id = I('id', 0, 'intval');
+            $at = I('at', 0, 'intval');
+            if (empty($id)) {
+                $this->error('参数错误');
+            }
+            $downlink_tmp = M('soft')->where(array('id' => $id))->getField('downlink');
+            if (empty($downlink_tmp)) {
+                $this->error('文件不存在');
+            }
 
         //下载地址:
-        $downlink = array();
-        foreach (explode('|||', $downlink_tmp) as $v) {
-            $temp_arr = explode('$$$', $v);
-            if (!empty($temp_arr[1])) {
-                $downlink[] = array(
-                    'url'   => $temp_arr[1],
-                    'title' => $temp_arr[0],
-                );
+            $downlink = array();
+            foreach (explode('|||', $downlink_tmp) as $v) {
+                $temp_arr = explode('$$$', $v);
+                if (!empty($temp_arr[1])) {
+                    $downlink[] = array(
+                        'url'   => $temp_arr[1],
+                        'title' => $temp_arr[0],
+                        );
+                }
             }
-        }
-        if (!isset($downlink[$at]['url'])) {
-            $this->error('文件不存在!');
-        }
-        $fileurl = trim($downlink[$at]['url']);
+            if (!isset($downlink[$at]['url'])) {
+                $this->error('文件不存在!');
+            }
+            $fileurl = trim($downlink[$at]['url']);
 
-        $cfg_download_hide = C('CFG_DOWNLOAD_HIDE');
+            $cfg_download_hide = C('CFG_DOWNLOAD_HIDE');
 
         //远程文件
-        if (strpos($fileurl, ':/') || empty($cfg_download_hide)) {
-            header("Location: $fileurl");
-        } else {
+            if (strpos($fileurl, ':/') || empty($cfg_download_hide)) {
+                header("Location: $fileurl");
+            } else {
 
-            $filename = basename($fileurl);
+                $filename = basename($fileurl);
             //处理中文文件
 
             $ext      = strtolower(substr(strrchr($filename, "."), 1)); //获取文件扩展名

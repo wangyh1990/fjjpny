@@ -31,7 +31,7 @@
 	    <!--
 	    var URL = '/admin.php?s=/Page';
 	    var APP	 = '/admin.php?s=';
-	    var SELF='/admin.php?s=/Page/index/pid/10';
+	    var SELF='/admin.php?s=/Page/index/pid/13';
 	    var PUBLIC='/App/Manage/View/Public';
 	    var data_path = "/Data";
 		var tpl_public = "/App/Manage/View/Public";
